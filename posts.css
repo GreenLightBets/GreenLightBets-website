@@ -23,8 +23,11 @@ header {
 }
 
 header h1 {
-    font-size: 2.5rem;
-    color: #2f9e44;
+    font-family: "Goldman", sans-serif;
+    -webkit-text-stroke: #2f9e44 1px;
+    color: #000;
+    letter-spacing: 6px;
+    font-size: 56px;
 }
 
 header p {
@@ -50,6 +53,7 @@ nav ul li a {
     color: #2f9e44;
     text-decoration: none;
     font-weight: bold;
+    margin: 0 1rem;
 }
 
 nav ul li a:hover {
@@ -78,6 +82,10 @@ main h2 {
     margin-bottom: 1rem;
 }
 
+article {
+    justify-content: center;
+}
+
 article p {
     margin-bottom: 1.5rem;
     line-height: 1.8;
@@ -101,3 +109,8 @@ footer {
     color: #2f9e44;
     margin-top: 2rem;
 }
+
+.images {
+    width: -webkit-fill-available;
+}
+
